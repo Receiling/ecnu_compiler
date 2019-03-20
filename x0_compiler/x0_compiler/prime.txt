@@ -1,0 +1,23 @@
+main {
+/* prime */
+int a [ 105 ] ;
+int i ;
+int j ;
+for ( i = 2 ; i <= 10 ; i = i ++ ; )
+{
+	if ( a [ i ] == 0 )
+	{
+		for ( j = i + i ; j <= 100 ; j = j + i ; )
+		{
+			a [ j ] = 1 ;
+		}
+	}
+}
+for ( i = 2 ; i <= 100 ; i = i ++ ; )
+{
+	if ( a [ i ] == 0 )
+	{
+		write ( i ) ;
+	}
+}
+}

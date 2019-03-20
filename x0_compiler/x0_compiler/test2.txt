@@ -1,0 +1,9 @@
+main {
+const int a = 1 ;
+int b ;
+int c ;
+read b ;
+read c ;
+write a + b + c ;
+write a + b * c + c ++ ;
+}

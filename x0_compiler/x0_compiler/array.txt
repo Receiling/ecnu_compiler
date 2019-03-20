@@ -1,0 +1,30 @@
+main
+{
+char str [ 30 ] ; 
+int t [ 30 ] ;
+int i ;
+i = 1 ;
+write ( i / 2 ) ;
+write ( i xor 3 ) ;
+t [ 0 ] = 1 ;
+t [ 1 ] = 2 ;
+write ( t [ t [ 1 ] - 1 ] ) ;
+for ( i = 0 ; i < 26 ; i = i ++ ; )
+{
+	str [ i ] = 'a' + i ;
+}
+i = 0 ;
+while ( i < 26 )
+{
+	if ( odd i )
+	{
+		write ( str [ i ] ) ;
+	}
+	
+	if ( i == 10 )
+	{
+		break ; 
+	}
+	i = i + 1 ;
+}
+}

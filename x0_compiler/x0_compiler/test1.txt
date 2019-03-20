@@ -1,0 +1,11 @@
+main {
+const int a = 1 ;
+int b ;
+char c ;
+c = 'a' ;
+for ( b = 1 ; b < 5 ; b = b ++ ; )
+{
+	c = c + a ;
+}
+write c ;
+}

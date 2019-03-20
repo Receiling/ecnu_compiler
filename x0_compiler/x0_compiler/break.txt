@@ -1,0 +1,33 @@
+main
+{
+int a ;
+int i ;
+read a ;
+write ( 'a' ) ;
+for ( i = 0 ; i <= a ; i = i ++ ; )
+{
+	if ( i % 2 == 0 )
+	{
+		continue ;
+	}
+	write ( i ) ;
+}
+write ( 'b' ) ;
+for ( i = 0 ; i <= a ; i = i ++ ; )
+{
+	if ( i % 2 == 1 )
+	{
+		break ;
+	}
+	write ( i ) ;
+}
+write ( 'c' ) ;
+for ( i = 0 ; i <= a ; i = i ++ ; )
+{
+	if ( i == 2 )
+	{
+		exit ; 
+	}
+	write ( i ) ;
+}
+}

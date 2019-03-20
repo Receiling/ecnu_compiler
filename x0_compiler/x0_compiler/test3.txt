@@ -1,0 +1,42 @@
+main {
+const int a = 1 ;
+const char c = 'a' ;
+int i ;
+int j ;
+i = 0 ;
+write ( a ) ;
+while ( i < 2 )
+{
+	write ( c + i ) ;
+	i = i ++ ;
+}
+i = 0 ;
+do
+{
+	write ( c + i ) ;
+	i = i ++ ;
+}
+while ( i < 2 )
+i = 0 ;
+repeat
+{
+	write ( c + i ) ;
+	i = i ++ ;
+}
+until ( i >= 2 )
+for ( i = 0 ; i <= 3 ; i = i ++ ; )
+{
+	for ( j = 0 ; j <= 3 ; j = j ++ ; )
+	{
+		if ( i == j )
+		{
+			continue ;
+		}
+		if ( j == 2 )
+		{
+			break ;
+		}
+		write ( j ) ;
+	}
+}
+}

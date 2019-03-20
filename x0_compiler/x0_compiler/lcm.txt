@@ -1,0 +1,19 @@
+main {
+/* lcm */
+int a ;
+int b ;
+int c ;
+int m ;
+read a ;
+read b ;
+m = a * b ;
+write ( m ) ;
+while ( a % b )
+{
+	c = a ;
+	a = b ;
+	b = c % b ;
+}
+write ( b ) ;
+write ( m / b ) ;
+}

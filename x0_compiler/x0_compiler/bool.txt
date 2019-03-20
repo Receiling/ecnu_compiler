@@ -1,0 +1,13 @@
+main
+{
+const bool a = true ;
+bool b ;
+int c ;
+read b ;
+read c ;
+if ( not a or b and ( odd c ) )
+{
+	write ( b ) ;
+	write ( c ) ;
+}
+}

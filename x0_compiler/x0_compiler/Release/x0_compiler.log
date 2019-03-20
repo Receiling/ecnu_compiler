@@ -1,0 +1,15 @@
+﻿  X0.cpp
+X0.cpp(508): warning C4018: “<”: 有符号/无符号不匹配
+X0.cpp(1788): warning C4018: “<”: 有符号/无符号不匹配
+X0.cpp(1806): warning C4018: “<”: 有符号/无符号不匹配
+X0.cpp(1888): warning C4018: “>=”: 有符号/无符号不匹配
+X0.cpp(1987): warning C4018: “>=”: 有符号/无符号不匹配
+X0.cpp(2006): warning C4018: “>=”: 有符号/无符号不匹配
+  x0_compiler.cpp
+  正在生成代码
+  31 of 524 functions ( 5.9%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  x0_compiler.vcxproj -> C:\Users\wyj\Desktop\学习\编译原理实践\x0_compiler\Release\x0_compiler.exe
+  x0_compiler.vcxproj -> C:\Users\wyj\Desktop\学习\编译原理实践\x0_compiler\Release\x0_compiler.pdb (Full PDB)
